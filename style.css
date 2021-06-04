@@ -81,6 +81,41 @@ body,
   text-align: center;
 }
 
+/* PAGINATION */
+.pagination {
+  padding: 3.5rem 0;
+  border: none;
+}
+
+.pagination a {
+  border: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.pagination a.page-link {
+  padding: 0.5rem 0.9rem;
+}
+
+.pagination a.page-link:hover {
+  color: #fff;
+  background-color: black;
+}
+
+.pagination a.active-page {
+  color: #fff;
+  background-color: black;
+}
+
+.pagination a.active-page:hover {
+  color: black;
+  background-color: #a7a7a7;
+}
+
+/* 
+MMMMMMMOOOOOOOOVOEVVVEEEE
+MMOOOOOVVEEE
+*/
 #myLinks {
   display: none;
 }
