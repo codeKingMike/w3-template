@@ -112,6 +112,34 @@ body,
   background-color: #a7a7a7;
 }
 
+/* FOOD MAN SECTION */
+
+#food-man {
+  height: 90vh;
+}
+
+.food-man-context {
+  padding: 3rem 0;
+}
+
+.food-man-title {
+  text-transform: capitalize;
+  margin-bottom: 2.7rem;
+  font-size: 1.6rem;
+}
+
+.food-man-text {
+  padding: 2rem 0;
+}
+
+.food-man-text h3 {
+  font-size: 1.5rem;
+}
+.food-man-text h4 {
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+
 /* 
 MMMMMMMOOOOOOOOVOEVVVEEEE
 MMOOOOOVVEEE
