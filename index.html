@@ -15,24 +15,116 @@
     
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="style.css">
     <title>W3 Template Redesign</title>
 </head>
 <body>
     <!-- NAVBAR -->
-    <div class="topnav">
-        <a href="#home" class="active">Logo</a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-        </div>
+
+    <nav class="main-nav">
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+        <div class="nav-context d-flex justify-content-between">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <h2>My Food</h2>
+            <h2>Mail</h2>
+        </div>
+    </nav>
+
+    <!-- FOOD MENU SECTION -->
+
+    <main id="food-menu">
+        <div class="food-list container">
+            <!-- FOOD ITEM 1 -->
+            <div class="food-items">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="sandwich">
+                <h3 class="food-name">The Perfect Sandwich, A Real NYC Classic
+                </h3>
+                <p class="food-description">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <!-- FOOD ITEM 2 -->
+            <div class="food-items">
+                <img src="" alt="">
+                <h3 class="food-name">Let Me Tell You About This Steak</h3>
+                <p class="food-description">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <!-- FOOD ITEM 3 -->
+            <div class="food-items">
+                <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="">
+                <h3 class="food-name">Cherries, interrupted</h3>
+                <p class="food-description">Lorem ipsum text praesent tincidunt ipsum lipsum.
+                
+                What else?</p>
+            </div>
+
+            <!-- FOOD ITEM 4 -->
+            <div class="food-items">
+                <img src="https://www.w3schools.com/w3images/wine.jpg" alt="wine">
+                <h3 class="food-name">Once Again, Robust Wine and Vegetable Pasta</h3>
+                <p class="food-description">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <!-- FOOD ITEM 5 -->
+            <div class="food-items">
+                <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="popsicle">
+                <h3 class="food-name">All I Need Is a Popsicle</h3>
+                <p class="food-description">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <!-- FOOD ITEM 6 -->
+            <div class="food-items">
+                <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="salmon">
+                <h3 class="food-name">Salmon For Your Skin</h3>
+                <p class="food-description">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <!-- FOOD ITEM 7 -->
+            <div class="food-items">
+                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="sandwich">
+                <h3 class="food-name">The Perfect Sandwich, A Real Classic</h3>
+                <p class="food-description">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+
+            <!-- FOOD ITEM 8 -->
+            <div class="food-items">
+                <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="croissant">
+                <h3 class="food-name">Le French</h3>
+                <p class="food-description">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <!-- PAGINATION -->
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="javascript:void(0);"><i class="fa fa-angle-double-left" aria-hidden="true"></i>
+</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+            <li class="page-item"><a class="page-link" href="javascript:void(0);">4</a></li>
+            <li class="page-item"><a class="page-link " href="javascript:void(0);"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+        </ul>
+    </main>
+
+    <!-- FOOD MAN SECTION -->
+    <section id="food-man" class="food-man">
+        <div class="food-man-context">
+            <h2 class="food-man-title">about me, the food man</h2>
+            <img src="https://www.w3schools.com/w3images/chef.jpg" alt="chef">
+            <h3 class="">I am Who I Am!</h3>
+            <h4 class="">With Passion For Real, Good Food</h4>
+            <p class="">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and
+            mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+            condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum.
+            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        </div>
+    </section>
 </body>
 </html>
